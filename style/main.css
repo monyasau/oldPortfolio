@@ -1,1 +1,69 @@
+/* @font-face {
+    font-family: "Lucida console";
+  } */
+* {
+  font-family: "Lucida console";
+  font-weight: 700;
+}
 
+/* colors */
+.secondary {
+  color: #f5deb3;
+}
+.primary {
+  color: #c7b081;
+}
+
+/* bigger devices style*/
+@media screen and (min-width: 734px) {
+  body {
+    background: #262833;
+    height: 100vh;
+  }
+  .nav {
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    /* margin-top: 8%; */
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+  }
+  .nav-head {
+    /* margin-left: 15%; */
+    font-family: cursive;
+    font-size: 32px;
+  }
+  .nav-link{
+    font-weight: 400;
+    font-size: 19px;
+    margin-left: auto;
+  }
+  .nav-link:last-child{
+    margin-left: 4%;
+    margin-right: 5%;
+  }
+  .cont {
+    margin: auto;
+    /* height: 40%; */
+    width: 40%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+  }
+}
+/* Bigger device style ends */
+
+/* small devices style*/
+@media only screen and (max-width: 734px) {
+  body {
+    background-color: #c5e4e7;
+    /* height: 100%; */
+    margin: 0;
+  }
+  .cont {
+    display: flex;
+    height: 100%;
+  }
+}
+/* small device style ends */
