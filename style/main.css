@@ -216,8 +216,9 @@
     margin: 0 10px;
   }
   footer {
+    
     margin: 0 auto;
-    width: 92%;
+    /* width: 92%; */
     font-weight: 400;
     font-size: 21px;
   }
@@ -244,10 +245,21 @@
 }
 /* small device style ends */
 .backdrop{
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
   position: absolute;
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
 
+}
+.card{
+  color: #262833;
+  border-radius: 15px;
+  padding: 10px;
+  background: #eee;
 }
