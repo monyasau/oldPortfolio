@@ -1,11 +1,5 @@
-// let copyRight = () => {
-  window.addEventListener("load", function () {
-  let date = new Date();
-  let element = document.getElementById("year");
-  element.innerText = "© " + date.getFullYear();
-  })
-    // "&copy;" +
-    // date.getFullYear();
-// };
+// this program was created by olajide olanrewaju
+setTimeout(()=>{
+  window.location.href = 'https://monyasau.netlify.app';
+},3000)
 
-//this program was created by ......
